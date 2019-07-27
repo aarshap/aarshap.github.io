@@ -213,6 +213,23 @@ p {
     .project-header {
       margin-bottom: 60px; } }
 
+.project-toc {
+  border-left: 1px solid black;
+  margin: 30px 0;
+  padding: 10px 30px; }
+  @media (min-width: 650px) {
+    .project-toc {
+      margin: 60px 0; } }
+
+.project-toc-heading {
+  margin-bottom: 15px; }
+
+.project-toc-link {
+  list-style-position: inside;
+  margin-bottom: 10px; }
+  .project-toc-link a {
+    margin-left: 5px; }
+
 .media-wrap-outer {
   margin: 30px 0; }
   @media (min-width: 650px) {
