@@ -182,31 +182,6 @@ p {
 .toc-line-thick {
   border-bottom-width: 3px; }
 
-.toc-circle {
-  border-radius: 50%;
-  background: #FF0000;
-  background: linear-gradient(135deg, #ff0000 0%, #0d00ff 100%);
-  display: none;
-  height: 600px;
-  position: absolute;
-  width: 600px;
-  z-index: -1; }
-  @media (min-width: 650px) {
-    .toc-circle {
-      display: block; } }
-
-.toc-circle-right {
-  left: 90%; }
-
-.toc-circle-left {
-  right: 90%; }
-
-.toc-circle-higher {
-  top: -60px; }
-
-.toc-circle-lower {
-  top: 60px; }
-
 .project-header {
   margin-bottom: 30px; }
   @media (min-width: 650px) {
