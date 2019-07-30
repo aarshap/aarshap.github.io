@@ -231,6 +231,7 @@ p {
     display: flex; } }
 
 .media {
+  overflow: hidden;
   position: relative; }
   @media (max-width: 650px) {
     .media:not(:last-child) {
@@ -251,6 +252,12 @@ p {
   left: 0;
   right: 0;
   top: 0; }
+
+.media-lazy {
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5); }
 
 .media-caption, .pullquote-attribution {
   font-size: 12px;
