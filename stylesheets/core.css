@@ -253,11 +253,17 @@ p {
   right: 0;
   top: 0; }
 
-.media-lazy {
-  -webkit-filter: blur(20px);
-          filter: blur(20px);
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5); }
+.media-img {
+  -webkit-filter: blur(50px);
+          filter: blur(50px); }
+
+.media-loaded {
+  -webkit-transition: -webkit-filter 0.2s linear;
+  transition: -webkit-filter 0.2s linear;
+  transition: filter 0.2s linear;
+  transition: filter 0.2s linear, -webkit-filter 0.2s linear;
+  -webkit-filter: none;
+          filter: none; }
 
 .media-caption, .pullquote-attribution {
   font-size: 12px;
