@@ -71,9 +71,14 @@ h4 {
     h4 {
       font-size: 18px; } }
 
-p {
+p,
+ul,
+ol {
   margin: 0 0 30px;
   max-width: 600px; }
+
+li {
+  margin: 0 0 10px; }
 
 .nav {
   display: -webkit-box;
@@ -188,6 +193,17 @@ p {
     .project-header {
       margin-bottom: 60px; } }
 
+.project-date {
+  display: block;
+  margin: 10px 0 0 0; }
+  @media (min-width: 650px) {
+    .project-date {
+      display: inline-block;
+      margin: 0 0 0 10px; }
+      .project-date:before {
+        content: "\00b7";
+        margin-right: 10px; } }
+
 .project-toc {
   border-left: 1px solid black;
   margin: 30px 0;
@@ -199,10 +215,10 @@ p {
 .project-toc-heading {
   margin-bottom: 15px; }
 
-.project-toc-link {
+.project-toc .project-toc-link {
   list-style-position: inside;
   margin-bottom: 10px; }
-  .project-toc-link a {
+  .project-toc .project-toc-link a {
     margin-left: 5px; }
 
 .media-wrap-outer {
